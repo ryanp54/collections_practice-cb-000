@@ -8,3 +8,7 @@ end
 def sort_array_char_count(array)
   array.sort{ |a, b| a.size <=> b.size }
 end
+
+def kesha_maker(array)
+  array.collect { |item| item[2] = "$" }
+end
