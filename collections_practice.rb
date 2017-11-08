@@ -10,7 +10,10 @@ def sort_array_char_count(array)
 end
 
 def kesha_maker(array)
-  array.collect { |item| item[2] = "$" }
+  array.collect do |item|
+    item[2] = "$"
+    item
+  end
 end
 
 def find_a(array)
