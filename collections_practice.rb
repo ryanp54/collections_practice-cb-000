@@ -19,3 +19,10 @@ end
 def find_a(array)
   array.select{ |item| item[0] == "a" }
 end
+
+def swap_elements(array)
+  swappee = array[1]
+  array[1] = array[2]
+  array[2] = swappee
+  array
+end
