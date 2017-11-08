@@ -12,3 +12,7 @@ end
 def kesha_maker(array)
   array.collect { |item| item[2] = "$" }
 end
+
+def find_a(array)
+  array.select{ |item| item[0] == "a" }
+end
