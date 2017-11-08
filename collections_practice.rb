@@ -33,3 +33,7 @@ end
 
 def sum_array(array)
   array.inject(0) { |result, item| result + item }
+end
+
+def add_s(array)
+  array.each_with_index.collect { |item, index| item if index != 1 }
