@@ -26,3 +26,10 @@ def swap_elements(array)
   array[2] = swappee
   array
 end
+
+def reverse_array(array)
+  array.reverse
+end
+
+def sum_array(array)
+  array.inject(0) { |result, item| result + item }
